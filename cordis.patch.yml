@@ -1,0 +1,7 @@
+# Register the WorkBuddy *global* provider (www.workbuddy.ai) alongside the
+# domestic one. The plugin reuses the WorkBuddy desktop app's sign-in; no
+# separate OAuth flow is started, and the profile's current default model is
+# left untouched.
+- insert:
+    - id: llm-workbuddy-global
+      name: dsh-workbuddy-global

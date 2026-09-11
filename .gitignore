@@ -1,0 +1,9 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+.workbuddy-auth.json
+.workbuddy-global-auth.json
+.workbuddy-probe.json
+.workbuddy-global-host-heartbeat.json
+.workbuddy-host-heartbeat.json
